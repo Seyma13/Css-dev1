@@ -1,0 +1,100 @@
+body{
+    background-color: white;
+}
+/***************** Baslıklar *****************/
+h1{
+    text-align: center;
+    color:darkorange;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+h3{
+    text-align: center;
+    color: brown;
+}
+/*******************Menü***************************/
+nav{
+    font-family: 'Tai Heritage Pro', serif;
+    text-align: center;
+    list-style-position: inside ; 
+    letter-spacing: 2px;
+  
+  
+}
+
+ul li a:hover{
+    text-decoration: underline 2px darkorange;
+    text-decoration-style: wavy;
+    color: darkorange;
+    font-weight: bold;
+    
+
+}
+nav ul li {
+    display: inline-block;
+   
+    
+}
+nav ul li a{
+      text-decoration: none;
+      padding: 5px;
+      color:black;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 10px;     
+     
+}
+
+ul li{
+    font-family: 'Tai Heritage Pro', serif;
+    text-align: center;
+    list-style-position: inside ;  
+}
+
+.paragrafbir{
+    text-align: center;
+}
+
+p a{
+    color: red;
+}
+
+/* Ürünlerimiz sayfasındaki liste */
+
+ol li{
+    font-family: 'Tai Heritage Pro', serif;
+    text-align: center;
+    list-style-position: inside ;  
+}
+
+.ürünler img{
+    width: 250px;
+    height: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.ürünler img:hover{
+    width: 300px;
+    height: 350px;
+    border: 2px solid darkorange;
+}
+/* Hakkımızda sayfası */
+.Hakkımızda h2{
+    text-align: left;
+    text-decoration: underline black;
+    color: darkorange;
+    padding: 8px;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.ürünler ol li{
+  display: inline-block;
+}
